@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Josefine Sans';
+  src: url('../fonts/JosefinSans-Regular.ttf')  format('truetype')
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/bg-desktop-light.jpg");
+  height: 300px;
+}
+
+body {
+  font-family: 'Josefine Sans', serif;
+  font-size: 18px;
+}
+
+.light-gray {
+  color: hsl(0, 0%, 98%)
+}
+
+.center-container {
+  width: 378px;
+  margin: auto;
+  vertical-align: center;
+}
+
+#heading {
+  float: left;
+}
+
+#icon-mode {
+  float: right;
+}
